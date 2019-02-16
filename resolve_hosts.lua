@@ -4,7 +4,8 @@
 ---- For example:
 ------ 192.168.1.1 Net router
 ------ 192.168.1.21 My Computer
-local hosts_file = 'C:\\Users\\tal\\Desktop\\hosts.txt'
+-- Place the file in Wireshark directory (probably C:\Program Files\Wireshark\hosts.txt)
+local hosts_file = 'hosts.txt'
 -- Host resolving be also done by placing a hosts file in %APPDATA%\wireshark\hosts , but this method does not allow spaces in hostname.
 
 -- Regular expression to verify that line starts with and IP address, and then a space
